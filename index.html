@@ -73,6 +73,86 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-ex10" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/01/02/ex10/" class="article-date">
+  <time class="dt-published" datetime="2024-01-02T12:43:50.000Z" itemprop="datePublished">2024-01-02</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/01/02/ex10/">ex10</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="人机交互-阿拜多斯对策委员会"><a href="#人机交互-阿拜多斯对策委员会" class="headerlink" title="人机交互-阿拜多斯对策委员会"></a>人机交互-阿拜多斯对策委员会</h2><p>队员：张亦宁-202000130097、李云飞-202000130083、许鑫-202000130058</p>
+<h3 id="整体印象"><a href="#整体印象" class="headerlink" title="整体印象"></a>整体印象</h3><p>用户对我们开发的运动健康 APP 呈现多半好评的印象。大部分用户认为它能够满足他们的需求，提供了丰富的功能和工具。</p>
+<h3 id="问题整理及解决方案"><a href="#问题整理及解决方案" class="headerlink" title="问题整理及解决方案"></a>问题整理及解决方案</h3><ol>
+<li><p>界面问题：</p>
+<p>我们一共收到了三位同学的评论反馈，整体上来说反馈较为友好，能够实现绝大多数场景的使用，但是还存在一些可以改进的方面，总结过后主要可以分为以下几个类别：</p>
+<ol>
+<li>布局排版</li>
+<li>图标与颜色</li>
+<li>功能和交互方便性</li>
+</ol>
+<h2 id="布局和排版"><a href="#布局和排版" class="headerlink" title="布局和排版"></a>布局和排版</h2><p><img src="/img/1.png" alt="image-20240102220316638"></p>
+<p>问题：上图中这种设计草案中，某些模块中的文字太小，不易阅读，尤其是在手机屏幕上。而且可以展示的内容不是很多，应当拓展一下可展示的模块数量，最好能够提供可以用户自定义化的选择方案。<br>来源：个人观察和经验<br>解决方案：适当调整模块设计中的字体大小以及图标展示，使其更加明显，或者选择更加清晰明显的字体。对模块的布局初始化更多预设方案，让用户能够自己选择展示内容的数量以及数据，尽可能做到高度的个性化。</p>
+<h2 id="图标与颜色"><a href="#图标与颜色" class="headerlink" title="图标与颜色"></a>图标与颜色</h2><p><img src="/img/2.png" alt="image-20240102221225372">问题：该设计中的颜色搭配不够协调，颜色过于杂乱无章，不符合运动APP的风格，在阅读时很难抓到重点以及寻找想要得到的数据。<br>来源：个人喜好和审美<br>解决方案：尝试使用更加鲜明和活泼的颜色，以及增强颜色的协调性，诸如使用热情的红色橙色黄色色系，展示用户的运动状态高涨，而且整体上的画面更加协调。也可以提供一些更加和谐的冷色、暗色系搭配等，方便用户自己选择适合自己运动状态的颜色。</p>
+<h2 id="功能和交互方便性"><a href="#功能和交互方便性" class="headerlink" title="功能和交互方便性"></a>功能和交互方便性</h2><p><img src="/img/3.png" alt="image-20240102221605921"></p>
+<p>问题：上图的设计中，功能不够完善和丰富，有些功能缺失或不实用，比如没有提供运动建议或分享功能。适当增加一些更加符合用户需求和喜好的功能会使用户使用体验大幅上升。<br>来源：个人观察和经验<br>解决方案：适当增加一些更加符合用户需求和喜好的功能，诸如在选择运动之初，就给出运动的建议，将[课程]与[运动]模块自动结合，而不是将课程单独隔离成一个功能。以及在朋友圈功能上，尽可能兼容如微信，QQ，小红书等社交平台，利用其庞大的用户基础来提高朋友圈的分享程度，而并非只在软件内部的朋友圈中敝帚自珍。</p>
+</li>
+<li><p>运动健康 APP 如何与 Keep 等运动训练软件共享数据：</p>
+<p>无法与Keep进行数据共享的原因：<br>1.数据接口不兼容：如果运动健康管理类的app和Keep使用的数据接口不兼容，可能会导致数据无法正常传输和共享。这可能是由于接口协议不一致、数据格式不匹配等原因引起的。<br>2.数据安全性问题：数据安全性可能是另一个重要的原因。如果两个系统之间的数据传输和存储不安全，可能会导致数据泄露、被篡改或遭受攻击。这可能会引发用户的隐私和安全担忧，导致不愿意共享数据。</p>
+<p><strong>解决方案：</strong></p>
+<ol>
+<li>数据接口不兼容<br>解决方案：<br>（1）标准化数据接口：确保两个系统都使用相同或兼容的数据接口标准，如RESTful API或GraphQL。<br>数据格式转换：开发数据转换逻辑，将一方传来的数据格式转换为另一方能解析的格式。<br>（2）文档和规范：为数据接口定义详细的文档和规范，确保双方都明确了解如何正确地传输和解析数据。</li>
+<li>数据安全性问题<br>解决方案：<br>（1）数据加密：对传输的数据进行加密，确保即使数据在传输过程中被截获，也无法轻易解密。<br>（2）使用安全的通信协议：如HTTPS，确保数据在传输过程中不被窃取或篡改。<br>（3）用户身份验证和授权机制：为数据访问设置适当的身份验证和授权机制，确保只有经过授权的用户可以访问或修改数据。<br>（4）数据审计：实施数据审计策略，定期检查数据的安全性和完整性。</li>
+</ol>
+</li>
+<li><p>质疑软件的用户粘性：</p>
+<p>有些用户怀疑运动健康 APP 的用户粘性可能较低，因为软件可能缺少成熟的商业运营模式和盈利方案，这可能使得用户难以持续使用该软件。</p>
+<p><strong>解决方案：</strong></p>
+<p>提升一款运动健康APP的用户粘性需要从多个方面入手，包括但不限于以下几点：</p>
+<ol>
+<li>优化用户体验：确保APP易于使用，界面清晰，操作流程顺畅。不断收集用户反馈，持续改进和优化产品设计。</li>
+<li>提供有价值的内容和功能：APP应该为用户提供有价值的信息和工具，例如健身计划、健康食谱、运动视频等。确保内容的质量和实用性，满足用户的需求和兴趣。</li>
+<li>增加社交互动元素：让用户能够分享自己的运动成果、经验和其他用户互动，增加用户之间的粘性。可以设计一些社交功能，例如社区论坛、好友排行榜等。</li>
+<li>推送个性化的通知和提醒：通过推送个性化的通知和提醒，例如每日运动提醒、健康目标进度等，来增加用户对APP的关注和使用频率。</li>
+<li>举办线上和线下活动：举办一些线上和线下的活动，例如线上挑战赛、线下健身活动等，来吸引用户的参与和互动，增加用户粘性。</li>
+<li>与其他健康平台合作：与其他健康平台合作，例如智能手环、体重秤等，实现数据共享和互联互通，为用户提供更全面的健康管理服务。</li>
+<li>定期更新和迭代：定期更新和迭代APP，修复可能存在的问题，增加新的功能和内容，保持APP的新鲜感和吸引力。</li>
+<li>合理的推广和营销策略：通过合理的推广和营销策略，例如社交媒体广告、合作伙伴推广等，来提高APP的知名度和曝光率，吸引更多的新用户。</li>
+</ol>
+<p>总的来说，提升运动健康APP的用户粘性需要不断关注用户的需求和反馈，持续优化产品功能和内容，增加用户的参与度和互动性。同时，合理的推广和营销策略也是必不可少的。</p>
+</li>
+</ol>
+<h3 id="系统总体改进方案"><a href="#系统总体改进方案" class="headerlink" title="系统总体改进方案"></a>系统总体改进方案</h3><p>根据上述总结，我们的系统改进方向主要分为三个方向：改进界面设计、与运动软件相关厂商交流商业合作和数据接口问题、提升用户粘性。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/01/02/ex10/" data-id="clqwgrkj80000owwvg5pnd6e3" data-title="ex10" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-homework5" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/11/14/homework5/" class="article-date">
@@ -635,7 +715,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/11/">November 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/10/">October 2023</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/01/">January 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/11/">November 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/10/">October 2023</a></li></ul>
     </div>
   </div>
 
@@ -646,6 +726,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2024/01/02/ex10/">ex10</a>
+          </li>
         
           <li>
             <a href="/2023/11/14/homework5/">homework5</a>
@@ -663,10 +747,6 @@
             <a href="/2023/10/30/Interview02/">Interview02</a>
           </li>
         
-          <li>
-            <a href="/2023/10/30/Interview01/">Interview01</a>
-          </li>
-        
       </ul>
     </div>
   </div>
@@ -680,7 +760,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       
-      &copy; 2023 John Doe<br>
+      &copy; 2024 John Doe<br>
       Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
